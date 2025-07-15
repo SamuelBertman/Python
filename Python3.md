@@ -40,3 +40,42 @@ many things including"""
 
 for user input, we use input() e.g.
 likes_snakes = input("do you like snakes?")
+
+# Boolean expressions are statements with a true or false answer
+1 == 1 results in a true
+1 != 1 results in a false
+1 == 2 results in a false
+1 != 2 results in a true
+'1' == 1 results in a false (different formats)
+first_expression = True/False
+
+if ... == ... : 
+print(....)
+# conditional statement, colon needed after if statement, the == means if this what is stated is equal is true then do such action
+
+> greater than
+>= greater than or equal to
+< less than
+<= less than or equal to
+# can be used in if statements e.g.
+if temperature >= 30
+  print("...")
+
+# in if statements, and can be used to connect statemenets e.g.
+if ... and ... : 
+# or can also be used in if statements, and, or, not
+if not .... - is how it is used
+
+# else is used in conjunction to if statements
+if .... :
+print("yes")
+else:
+print("no")
+
+# elif is used in conjunction to if statements
+if x < 500 :
+print("gold")
+elif x < 100
+print("silver")
+elif x < 50
+print("bronze")
