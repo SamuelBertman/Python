@@ -80,4 +80,30 @@ print("silver")
 elif x < 50
 print("bronze")
 
+listing is done via [] square brackets
+numbers = [1, 2, "three"]
+
+# you can remove from a list via remove e.g.
+list = [1, 2, 3]
+list.remove(1)
+print(list) = [2, 3]
+
+# you can add to the end of a list via append e.g.
+list = [1, 2, 3]
+list.append(1)
+print(list) = [1, 2, 3, 1]
+
+# in a list, all things have an index number starting at 0
+print(x[3]) will print the 4th item in the list
+
+# square brackets link to index number of a list so you can assign a variable to a list item
+employee_four = employees[3]
+
+# to access the last item in a list with ease you can use [-1]
+
+# you can change any word in a list using []
+garden = [1, 2, 3]
+garden[1] = "strawberry"
+print(garden) = [1, "strawberry", 3]
+# works with negative indices 
 
