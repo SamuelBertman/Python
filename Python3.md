@@ -107,3 +107,4 @@ garden[1] = "strawberry"
 print(garden) = [1, "strawberry", 3]
 # works with negative indices 
 
+# [2][1] = 3rd in the list, 2nd item
