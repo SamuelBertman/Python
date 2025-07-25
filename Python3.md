@@ -108,3 +108,22 @@ print(garden) = [1, "strawberry", 3]
 # works with negative indices 
 
 # [2][1] = 3rd in the list, 2nd item
+
+variable.insert(2, "") 
+# .insert inserts a new item into a list with the number stating where in the list
+
+removed_element = variable.pop(2)
+print(removed_element) 
+2
+# .pop removes an element from a list and can be attatched to a variable e.g. removed_element, to then be printed separately
+
+# range() when printed print(range) will give the range, then if print(list(range)) that will print all numbers within the range, 
+- HOWEVER, the integer in the range will not be in the list e.g. 
+range(3) = [0, 1, 2]
+# range can start from different number via range(2, 8) comma, the 1st number will be in the range, the last will not
+# sequence can be made via range(2,8) and then adding a 3rd integer range(2, 8, 2) which will in this case will be 2 greater than the last in the sequence between the range
+
+# print(len(list)), len will state the number of integers within the list
+
+# a set of elements in a range can be selected and put on a variable via colon e.g.
+start = variable[:] 
